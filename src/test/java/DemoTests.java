@@ -15,7 +15,7 @@ public class DemoTests {
     @Test
     public void testAdd() {
 
-        assertEquals(10, calc.add(10, 10));
+        assertEquals(20, calc.add(10, 10));
     }
 
 
@@ -23,7 +23,7 @@ public class DemoTests {
     public void testSubtract() {
 
 
-        assertEquals(5, calc.subtract(5, 5));
+        assertEquals(0, calc.subtract(5, 5));
     }
 
     @Test
