@@ -30,7 +30,7 @@ public class DemoTests {
     public void testMultiplyTwoNumbers() {
 
 
-        assertEquals(25, calc.multiply(5, 5));
+        assertEquals(20, calc.multiply(5, 5));
     }
 
     @Test
